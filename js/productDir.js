@@ -1,16 +1,12 @@
-angular.module('assessment').directive('product', function(){
+angular.module('assessment').directive('productDir', function(){
   return {
     restrict:'AE',
     templateUrl:'./views/product-tmpl.html',
     scope : {
       // take in the product and show the details
-      AlertProduct:'&'
+      product:'='
 
-    },
-    controller: function($scope, myService){
-      myService.getProducts().then(function(response){
-        $scope.products = response;
-      })
     }
+  
   }
 })
