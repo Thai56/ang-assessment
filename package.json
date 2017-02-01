@@ -1,0 +1,25 @@
+{
+  "name": "angular-assessment",
+  "version": "1.0.0",
+  "description": "``1``\r  Create a basic angular app that includes a mainCtrl,mainService,app.js and routes.js The index.html file is included in this repo so you dont need to add one.",
+  "main": "index.js",
+  "dependencies": {
+    "angular": "^1.6.0",
+    "angular-ui-router": "^0.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevMountain/angular-assessment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DevMountain/angular-assessment/issues"
+  },
+  "homepage": "https://github.com/DevMountain/angular-assessment#readme"
+}
